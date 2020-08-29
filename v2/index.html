@@ -13,10 +13,11 @@
 		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 		crossorigin="anonymous"></script>
 	<style type="text/css">
+		/*
 		* {
 			font-weight: bold;
 		}
-
+		*/
 		.card-deck {
 			bottom-margin: 10px;
 		}
@@ -28,18 +29,24 @@
 		.img-thumbnail {}
 
 		.datecard {
+			/*
 			font-weight: bold;
+			*/
 		}
 
 		.abstractcard {
+			/*
 			font-weight: bold;
+			*/
 
 		}
 
 		.card {
 			margin-bottom: : 10px;
+			/*
 			box-shadow: 2px 2px 2px black;
-			padding: 10px;
+			*/
+			padding: 20px;
 			border: 1px solid black;
 			font-family: Franklin Gothic Medium !important;
 			font-size: 15px !important
@@ -61,6 +68,18 @@
 		.page-header {
 			font-weight: 900 !important;
 		}
+
+		.nav-pills>li.active>a {
+			background-color: grey;
+		}
+
+		.nav-pills>li.active>a:focus {
+			background-color: grey;
+		}
+
+		.nav-pills>li.active>a:hover {
+			background-color: grey;
+		}
 	</style>
 </head>
 
@@ -70,11 +89,11 @@
 	<div class="container">
 
 		<div class="page-header text-center container">
-			<h1 style="margin-top:20px;font-size:50px;"><b>THE PERTINENT TIMES</b></h1>
+			<h1 style="margin-top:20px;font-size:50px;font-weight: bold;"><b>THE PERTINENT TIMES</b></h1>
 		</div>
 
 
-		<ul class="nav nav-pills navbar-dark container">
+		<ul class="nav nav-pills container">
 			<li id="homeNav" class="nav-item"><a class="nav-link" data-toggle="tab" href="#home">HOME</a></li>
 			<li id="worldNav" class="nav-item"><a class="nav-link" data-toggle="tab" href="#world">WORLD</a></li>
 			<li id="politicsNav" class="nav-item"><a class="nav-link" data-toggle="tab" href="#politics">POLITICS</a>
