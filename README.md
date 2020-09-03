@@ -1,8 +1,10 @@
 # newyork-times-api
 
+News Portal using HTML,CSS,Bootstrap and Javascript.
+
 Hits Newyork Time API to get articles
 
-Has 12 sections in total , will hit APi when you select a section and gets latest articles
+Has 12 sections in total , will hit API when you select a section and gets latest articles
 
 Refreshes the article cards when new section in selected
 
